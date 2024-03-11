@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <title>Ball Physics</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="./favicon.svg">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <canvas id="canvas" width="700px" height="400px"></canvas>
+
+        <section>
+            <button onclick="reset()">Reset</button>
+            <button id="btn_freeze" onclick="toggleFreeze()">Congelar</button>
+            <button onclick="setView('dash')">Bola Dash</button>
+            <button onclick="setView('default')">Bola Padrão</button>
+        </section>
+    </main>
+
+    <!-- scripts -->
+    <script src="scripts/drawn.js" defer></script>
+    <script src="scripts/canvas.js"></script>
+    <script src="scripts/line_dash_ball.js"></script>
+    <script src="scripts/physic_ball.js"></script>
+</body>
+
+</html>

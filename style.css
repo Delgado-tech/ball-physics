@@ -1,0 +1,42 @@
+main {
+	max-width: 700px;
+}
+
+#canvas {
+	background-color: #111827;
+	border-radius: 15px;
+}
+
+section {
+	display: flex;
+	justify-content: space-between;
+	gap: 12px;
+	padding: 12px;
+}
+
+button {
+	border: none;
+	font-size: large;
+	border-radius: 15px;
+	padding: 12px 24px;
+	width: 100%;
+	cursor: pointer;
+	background-color: #e5e7eb;
+	color: #111827;
+	transition: all 0.2s ease-in;
+}
+
+button:hover {
+	background-color: #111827;
+	color: #e5e7eb;
+}
+
+.selected {
+	background-color: #60a5fa;
+	color: #111827;
+}
+
+.selected:hover {
+	background-color: #172554;
+	color: #e5e7eb;
+}
