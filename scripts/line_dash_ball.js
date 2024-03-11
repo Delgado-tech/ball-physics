@@ -60,7 +60,7 @@ class DashBall {
     }
 
     physics() {
-        this.y += this.direction * gravity * this.gravityMutiplier * this.impulse;
+        this.y += this.direction * this.gravity * this.gravityMutiplier * this.impulse;
         this.gravityMutiplier += this.direction;
         this.r *= 1.0005;
 
