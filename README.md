@@ -47,4 +47,10 @@ $ cd ball-physics
 
 Agora só basta abrir o arquivo `index.html` e testar o projeto.
 
+<br>
+
+---
+
+### Deploy: https://bits-ball-physic.netlify.app/
+
 <img id="footer" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:30363d&height=150&section=footer" width="100%">
