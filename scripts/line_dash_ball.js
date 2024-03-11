@@ -1,5 +1,3 @@
-const gravity = 0.4;
-
 class ColorChanger {
     constructor(color, toColor) {
         this.color = color;
@@ -39,6 +37,8 @@ const colorChanger = new ColorChanger(color, toColor);
 
 
 class DashBall {
+    gravity = 0.4;
+
     constructor(x, y, r) {
         this.r = r ?? 50;
         this.x = x ?? ((Math.random() * (canvas.width - this.r)) + 1);
