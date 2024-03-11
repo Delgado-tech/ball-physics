@@ -42,7 +42,7 @@ class DashBall {
     constructor(x, y, r) {
         this.r = r ?? 50;
         this.x = x ?? ((Math.random() * (canvas.width - this.r)) + 1);
-        this.y = y ?? ((Math.random() * (canvas.height - this.r)) + 1);
+        this.y = y ?? ((Math.random() * (canvas.height - this.r)) + 20);
         this.vx = (Math.random() < 0.5 ? -1 : 1) * 2;
         this.gravityMutiplier = 1;
         this.impulse = 1;

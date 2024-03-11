@@ -1,17 +1,35 @@
-main {
-	max-width: 700px;
+@media screen {
+	main {
+		max-width: 700px;
+	}
+
+	#canvas_container {
+		max-width: 700px;
+	}
 }
 
-#canvas {
-	background-color: #111827;
-	border-radius: 15px;
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-color: #f3f4f6;
+}
+
+main {
+	padding: 16px;
+	height: 100vh;
+	background-color: white;
+	box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
 }
 
 section {
-	display: flex;
-	justify-content: space-between;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 	gap: 12px;
-	padding: 12px;
+	padding-top: 8px;
+	padding-bottom: 8px;
 }
 
 button {
@@ -29,6 +47,15 @@ button {
 button:hover {
 	background-color: #111827;
 	color: #e5e7eb;
+}
+
+#canvas_container {
+	width: 100%;
+}
+
+#canvas {
+	background-color: #111827;
+	border-radius: 16px;
 }
 
 .selected {
